@@ -2,4 +2,4 @@
 import ReactDOM from'react-dom'
 
 const el = document.getElementById('root') // pega a div root do html e passa como parametro
-ReactDOM.render('Olá React',el)
+ReactDOM.render(<div>Olá React</div>,el)
